@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Cinzel', serif;
+}
+p,a{
+    font-family: 'Roboto', sans-serif;
+}
+.bg-black{
+    background-color: black;
+}
+.text-black{
+    background-color: black;
+}
+.text-left{
+    text-align: left;
+}
+.overlay-banner-text {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    transform: translate(-30%, -30%);
+    padding: 20px;
+    text-align: center;
+    color:#fff;
+}
+
+.rounded-btn{
+    background: #fff 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
+    color: #000;
+    font-weight: bold;
+}
+.location-bg{
+    background-color: #DCE2E1;
+    height: 600px;
+}
+.blue-bg{
+    background-color: #DCE2E1;
+    height: 600px;
+}
+.img-about{
+    position: relative;
+    left: 20px;
+}
+.amen-bg{
+    background-color: #F1F1F1;
+}
+.border-radius-30{
+    border-radius: 30px;
+}
+.dark-brown-card{
+    background-color: #533D3C;
+    color:#fff;
+}
+.bg-about{
+    background-image: url(../img/28.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    color:#fff
+}
+.bg-offer{
+    background-image: url(../img/offer_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    color:#fff
+}
+.overlay-list{
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    text-align: center;
+    color:#fff;
+}
+
+/* Custom CSS for setting background image */
+.modal-with-bg-image .modal-content {
+    background-image: url(../img/pop_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-bg{
+    background-image: url(../img/22.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+@media (max-width: 768px) {
+    .home-banner{
+        min-height: 380px;
+    }
+    .location-bg{
+        height: 450px;
+    }
+    .blue-bg{
+        height: 750px;
+    }
+    .img-about{
+        height:auto;
+        width:100%;
+        left:0;
+    }
+    .overlay-banner-text {
+        position: absolute;
+        top: 50%;
+        left:30%;
+        width: 100%;
+        transform: translate(-30%, -30%);
+        padding: 20px;
+        text-align: center;
+        color:#fff;
+    }
+
+}
